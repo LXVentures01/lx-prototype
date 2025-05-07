@@ -1,0 +1,2 @@
+export const Card = ({ className = "", children }) => <div className={`shadow-md ${className}`}>{children}</div>;
+export const CardContent = ({ className = "", children }) => <div className={`${className}`}>{children}</div>;
